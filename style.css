@@ -71,3 +71,33 @@ img {
 .clear {
   clear: both;
 }
+
+/*Esercizio*/
+@media screen and (max-width: 419px) {
+ .row
+  {
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 0 auto;
+  max-width: 100%;
+  }
+  
+  img {
+    width: 50%;
+    height: 50%;
+    object-fit: cover;
+  }
+
+  #steps {
+    background-color:#5c9ad1;
+    color: white;
+  }
+
+  #lezioni {
+    padding-bottom: 30px;
+    background-color: #f9f9f9;
+  }
+} 
+
+/* /Esercizio*/
