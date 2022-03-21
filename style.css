@@ -74,19 +74,23 @@ img {
 
 /*Esercizio*/
 @media screen and (max-width: 419px) {
- .row
-  {
-  display:flex;
-  flex-direction: column;
-  align-items: center;
-  margin: 0 auto;
-  max-width: 100%;
+ .row {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 0 auto;
+    max-width: 100%;
   }
   
   img {
     width: 50%;
     height: 50%;
     object-fit: cover;
+  }
+
+  #why img {
+    width: 30%;
+    height: 30%;
   }
 
   #steps {
@@ -99,5 +103,43 @@ img {
     background-color: #f9f9f9;
   }
 } 
-
 /* /Esercizio*/
+
+/* Bonus*/
+@media screen and (min-width: 420px) and (max-width: 768px) {
+  
+  .row
+   {
+   display:flex;
+   flex-direction: column;
+   align-items: center;
+   margin: 0 auto;
+   max-width: 100%;
+   padding-bottom: 5%;
+   }
+
+   h1 {
+     font-size: 200%;
+  }
+
+  img {
+    width: 70%;
+    height: 70%;
+    object-fit: cover;
+    margin-top: 5%;
+  }
+
+  #why img {
+    width: 30%;
+    height: 30%;
+  }
+
+  #lezioni {
+    background-color: beige;
+  }
+
+  #why {
+    background-color: beige;
+  }
+}
+/* /Bonus*/
